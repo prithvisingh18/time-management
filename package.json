@@ -1,5 +1,15 @@
 {
+  "scripts": {
+    "build": "rm -rf bin;./node_modules/.bin/babel src --out-dir bin;"
+  },
   "dependencies": {
-    "sqlite3": "^5.0.0"
-  }
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "uuid": "^8.2.0"
+  },
+  "license": "MIT"
 }
